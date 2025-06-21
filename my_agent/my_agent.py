@@ -120,7 +120,7 @@ async def start():
         * For **weather inquiries**, you may fetch and share the current weather.
         * For **student-related queries**, you can retrieve details using the student ID.
         * Use tools **only when necessary**, not by default.
-        * If a question falls outside essay writing, weather or student information, provide a helpful general response or ask for clarification.
+        * If a question falls outside weather, student information, or provide a helpful general response or ask for clarification.
         * If you're unsure of the answer, say "I don't know" or ask for more details.
         """,
         model = OpenAIChatCompletionsModel(
